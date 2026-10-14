@@ -1,37 +1,45 @@
 # Online Retail Sales Analysis
 
 ## Project Overview
-This project analyzes online retail transaction data using Python and Pandas to understand sales performance, customer purchasing behavior, and business trends.
 
-The objective is to transform raw transaction data into meaningful insights that can support data-driven business decisions.
+This project analyzes online retail transaction data using Python to understand sales performance, customer purchasing behavior, and business trends. The objective is to transform raw transaction data into meaningful insights that can support data-driven business decisions.
 
 ## Objectives
+
 - Clean and prepare retail transaction data.
 - Perform exploratory data analysis (EDA).
-- Analyze sales revenue and customer purchasing patterns.
+- Analyze sales performance and customer purchasing patterns.
 - Identify top-performing customers and products.
-- Examine sales trends using data visualization.
+- Examine sales trends through data visualization.
 - Summarize findings and potential business recommendations.
 
 ## Tools and Technologies
+
 - Python
 - Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Excel
+
+## Dataset Description
+
+The project uses the `Online Retail.xlsx` transaction dataset. It contains retail transaction records used to analyze sales, products, and customer purchasing behavior.
+
+The analysis should be interpreted in the context of the dataset's coverage and data quality.
 
 ## Project Workflow
-1. Load and inspect the retail dataset.
-2. Identify and handle missing values and invalid records.
-3. Prepare the data for analysis.
-4. Calculate relevant sales and customer metrics.
-5. Perform exploratory data analysis.
-6. Create visualizations to identify trends and patterns.
-7. Interpret the findings and document business insights.
+
+1. Loaded and inspected the retail transaction dataset.
+2. Examined data types, missing values, and transaction records.
+3. Cleaned and prepared data for analysis.
+4. Calculated sales and customer-related metrics.
+5. Performed exploratory data analysis.
+6. Created visualizations to explore trends and patterns.
+7. Interpreted the results and documented business insights.
 
 ## Key Analysis Areas
+
 - Overall sales performance
 - Revenue by product and customer
 - Top customers by revenue
@@ -40,18 +48,36 @@ The objective is to transform raw transaction data into meaningful insights that
 - Distribution of key sales metrics
 
 ## Business Value
-The analysis demonstrates how transaction data can be used to understand customer behavior, evaluate sales performance, identify valuable customers, and support business planning.
+
+This project demonstrates how transaction data can help analyze sales performance, understand customer purchasing behavior, identify valuable customers, and support business planning.
 
 ## Project Files
-- `Online Retail Sales Analysis.ipynb` — Jupyter Notebook containing the analysis, Python code, and visualizations.
-- `online_retail_cleaned.xlsx` — Dataset used for the analysis. The actual uploaded filename may differ.
 
-## How to Run
+- `Ecommerce_Sales_Analysis.ipynb` — Jupyter Notebook containing the Python code, analysis, and visualizations.
+- `Online Retail.xlsx` — Transaction dataset used in the analysis.
+
+## How to Run the Project
+
 1. Download or clone this repository.
-2. Install Python and the required libraries.
-3. Open the notebook in Jupyter Notebook or JupyterLab.
-4. Place the dataset in the appropriate project folder.
-5. Update the dataset path if necessary and run the notebook cells.
+2. Install Python and Jupyter Notebook.
+3. Install the required libraries:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn openpyxl
+   ```
+
+4. Place `Online Retail.xlsx` in the same directory as the notebook, or update the file path in the notebook to match your folder structure.
+5. Open `Ecommerce_Sales_Analysis.ipynb` in Jupyter Notebook or JupyterLab.
+6. Run the notebook cells in order.
 
 ## Conclusion
-This project demonstrates practical data analytics skills, including data preparation, exploratory analysis, customer and sales metrics, visualization, and communicating business insights.
+
+This project demonstrates practical data analytics skills, including data preparation, exploratory data analysis, sales and customer metrics, visualization, and communicating business insights.
+
+The analysis can support better understanding of retail performance and customer purchasing patterns. Findings should be interpreted in light of the dataset's limitations.
+
+## Author
+
+**Kamakshi Kanike** — Aspiring Junior Data Analyst
+
+[GitHub Profile](https://github.com/kamakshi-analytics)
